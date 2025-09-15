@@ -39,19 +39,19 @@ export default function LandingPage() {
             Discover the Timeless Beauty of Sikkim
           </motion.h1>
           <motion.p className="text-lg md:text-xl font-light mb-8" variants={fadeUp}>
-            Monument360 brings you closer to the heritage, architecture, and stories behind Sikkim’s iconic landmarks.
+            Monastery360 brings you closer to the heritage, architecture, and stories behind Sikkim’s iconic monasteries.
           </motion.p>
           <motion.button
             className="bg-[#F5F0EB] text-[#2E2E2E] px-6 py-3 rounded-full text-sm font-medium hover:opacity-90 active:scale-95 transition"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Explore Monuments
+            Explore Monasteries
           </motion.button>
         </div>
       </motion.section>
 
-      {/* Featured Monuments */}
+      {/* Featured Monasteries */}
       <section className="px-6 md:px-16 lg:px-24 xl:px-32 py-16">
         <motion.h2
           className="text-3xl font-semibold mb-10 text-center"
@@ -60,7 +60,7 @@ export default function LandingPage() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          Featured Monuments
+          Featured Monasteries
         </motion.h2>
 
         <motion.div
