@@ -1,9 +1,83 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Landmark } from 'lucide-react';
+import axios from 'axios';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function ContactPage() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      // Replace with your actual backend endpoint URL
+      const response = await axios.post('https://your-backend-api.com/api/contact', formData, {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+      
+      if (response.status === 200) {
+        toast.success('Message sent successfully!', {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+        });
+        setFormData({ name: '', email: '', message: '' }); // Clear the form
+      } else {
+        toast.error('Failed to send message. Please try again.', {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+        });
+      }
+    } catch (error) {
+      console.error('Submission error:', error);
+      toast.error('An error occurred. Please try again later.', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <div className="min-h-screen flex flex-col items-center p-6 text-[#1E3A2E] font-sans relative overflow-hidden ">
+      {/* Toast container */}
+      <ToastContainer />
+      
       {/* Custom Background Image Div */}
       <div 
         className="absolute inset-0 bg-cover bg-center" 
@@ -30,7 +104,7 @@ export default function ContactPage() {
         {/* Contact Form */}
         <div className="w-full lg:w-2/3 bg-white/70 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-[#3E5C59]/10">
           <h2 className="text-2xl font-semibold text-[#1E3A2E] mb-6">Send Us a Message</h2>
-          <form className="space-y-4">
+          <form className="space-y-4" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-[#1E3A2E]/90">
                 Full Name
@@ -39,6 +113,8 @@ export default function ContactPage() {
                 type="text"
                 id="name"
                 name="name"
+                value={formData.name}
+                onChange={handleChange}
                 className="mt-1 block w-full rounded-md bg-white border border-[#3E5C59]/30 focus:border-[#3E5C59] focus:ring-1 focus:ring-[#3E5C59] p-2 transition-colors duration-200"
                 placeholder="John Doe"
               />
@@ -51,6 +127,8 @@ export default function ContactPage() {
                 type="email"
                 id="email"
                 name="email"
+                value={formData.email}
+                onChange={handleChange}
                 className="mt-1 block w-full rounded-md bg-white border border-[#3E5C59]/30 focus:border-[#3E5C59] focus:ring-1 focus:ring-[#3E5C59] p-2 transition-colors duration-200"
                 placeholder="you@example.com"
               />
@@ -63,6 +141,8 @@ export default function ContactPage() {
                 id="message"
                 name="message"
                 rows="4"
+                value={formData.message}
+                onChange={handleChange}
                 className="mt-1 block w-full rounded-md bg-white border border-[#3E5C59]/30 focus:border-[#3E5C59] focus:ring-1 focus:ring-[#3E5C59] p-2 transition-colors duration-200"
                 placeholder="Your message here..."
               ></textarea>
@@ -70,8 +150,9 @@ export default function ContactPage() {
             <button
               type="submit"
               className="w-full flex justify-center items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium bg-[#1E3A2E] text-[#D8D4C8] hover:bg-[#3E5C59] active:scale-95 transition-all duration-200 shadow-sm"
+              disabled={isSubmitting}
             >
-              Send Message
+              {isSubmitting ? 'Sending...' : 'Send Message'}
             </button>
           </form>
         </div>
