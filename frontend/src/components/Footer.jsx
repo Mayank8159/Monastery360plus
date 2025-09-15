@@ -16,7 +16,7 @@ export default function Footer() {
 
         {/* Description */}
         <p className="text-center max-w-xl text-sm font-normal leading-relaxed">
-          Discover the timeless beauty of Shillong’s monuments. Monument360 brings history, architecture, and culture to your fingertips—curated with care, crafted for clarity.
+          Discover the timeless beauty of Sikkim’s monuments. Monument360 brings history, architecture, and culture to your fingertips—curated with care, crafted for clarity.
         </p>
       </div>
 

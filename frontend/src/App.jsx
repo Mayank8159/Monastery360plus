@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 
 import Home from './pages/Home';
 import NotFound from './pages/Notfound';
+import MonumentsPage from './pages/Monuments';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/monuments" element={<MonumentsPage />} />
       </Routes>
       <Footer />
     </Router>

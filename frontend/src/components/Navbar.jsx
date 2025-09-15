@@ -20,10 +20,10 @@ const Navbar = () => {
 
       {/* Desktop Menu */}
       <ul className="text-white md:flex hidden items-center gap-10">
-        <li><a className="hover:text-white/70 transition" href="#">Home</a></li>
-        <li><a className="hover:text-white/70 transition" href="#">Monuments</a></li>
-        <li><a className="hover:text-white/70 transition" href="#">Gallery</a></li>
-        <li><a className="hover:text-white/70 transition" href="#">Contact</a></li>
+        <li><a className="hover:text-white/70 transition" href="/">Home</a></li>
+        <li><a className="hover:text-white/70 transition" href="/monuments">Monuments</a></li>
+        <li><a className="hover:text-white/70 transition" href="/gallery">Gallery</a></li>
+        <li><a className="hover:text-white/70 transition" href="/contact">Contact</a></li>
       </ul>
 
       {/* Desktop CTA */}
