@@ -72,7 +72,7 @@ const Navbar = () => {
         <div className="mobile-menu absolute top-[70px] left-0 w-full bg-gradient-to-r from-[#3C2A21] via-[#6B4226] to-[#A47148] p-6 md:hidden">
           <ul className="flex flex-col space-y-4 text-white text-lg">
             <li><a href="/" className="text-sm" onClick={closeMobileMenu}>Home</a></li>
-            <li><a href="/monuments" className="text-sm" onClick={closeMobileMenu}>Monuments</a></li>
+            <li><a href="/monasteries" className="text-sm" onClick={closeMobileMenu}>Monasteries</a></li>
             <li><a href="/gallery" className="text-sm" onClick={closeMobileMenu}>Gallery</a></li>
             <li><a href="/contact" className="text-sm" onClick={closeMobileMenu}>Contact</a></li>
           </ul>
