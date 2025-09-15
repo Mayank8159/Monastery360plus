@@ -1,8 +1,11 @@
-import { Landmark } from 'lucide-react';
-import React, { useState } from 'react';
+import { Landmark, ArrowRight } from "lucide-react";
+import React, { useState } from "react";
+import { useClerk, UserButton, useUser } from "@clerk/clerk-react";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { user } = useUser();
+  const { openSignIn } = useClerk();
 
   return (
     <nav className="sticky top-0 w-full h-[70px] px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-50 bg-gradient-to-r from-[#3C2A21] via-[#6B4226] to-[#A47148] transition-all shadow-md">
@@ -23,13 +26,17 @@ const Navbar = () => {
         <li><a className="hover:text-white/70 transition" href="#">Contact</a></li>
       </ul>
 
-      {/* CTA Button */}
-      <button
-        type="button"
-        className="bg-white text-gray-700 md:inline hidden text-sm hover:opacity-90 active:scale-95 transition-all w-40 h-11 rounded-full"
-      >
-        Explore Now
-      </button>
+      {/* Desktop CTA */}
+      {user ? (
+        <UserButton />
+      ) : (
+        <button
+          onClick={openSignIn}
+          className="flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium bg-[#F4E1D2] text-[#3C2A21] hover:bg-[#e8d2bd] active:scale-95 transition-all duration-200 shadow-sm"
+        >
+          Explore Now <ArrowRight className="w-4 h-4" />
+        </button>
+      )}
 
       {/* Mobile Menu Toggle */}
       <button
@@ -39,12 +46,10 @@ const Navbar = () => {
         onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
       >
         {isMobileMenuOpen ? (
-          // Cross Icon
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
             <path d="M18 6L6 18M6 6l12 12" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         ) : (
-          // Hamburger Icon
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="#fff">
             <path d="M3 7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2zm0 7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2zm0 7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2z" />
           </svg>
@@ -60,12 +65,16 @@ const Navbar = () => {
             <li><a href="#" className="text-sm">Gallery</a></li>
             <li><a href="#" className="text-sm">Contact</a></li>
           </ul>
-          <button
-            type="button"
-            className="bg-white text-gray-700 mt-6 inline text-sm hover:opacity-90 active:scale-95 transition-all w-40 h-11 rounded-full"
-          >
-            Explore Now
-          </button>
+          {user ? (
+            <UserButton />
+          ) : (
+            <button
+              onClick={openSignIn}
+              className="flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium bg-[#F4E1D2] text-[#3C2A21] hover:bg-[#e8d2bd] active:scale-95 transition-all duration-200 shadow-sm mt-6"
+            >
+              Explore Now <ArrowRight className="w-4 h-4" />
+            </button>
+          )}
         </div>
       )}
     </nav>
