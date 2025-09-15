@@ -23,7 +23,7 @@ const Navbar = () => {
       <a href="#" className="flex items-center">
         <Landmark size={28} color="#F4E1D2" className="mr-3" />
         <div className="text-2xl font-bold text-white">
-          Monument <span className="text-[#F4E1D2]">360</span>
+          Monastery <span className="text-[#F4E1D2]">360</span>
         </div>
       </a>
 
