@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 w-full h-[70px] px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-50 bg-gradient-to-r from-[#3C2A21] via-[#6B4226] to-[#A47148] transition-all shadow-md">
       {/* Logo */}
-      <a href="#" className="flex items-center">
+      <a href="/" className="flex items-center">
         <Landmark size={28} color="#F4E1D2" className="mr-3" />
         <div className="text-2xl font-bold text-white">
           Monastery <span className="text-[#F4E1D2]">360</span>
