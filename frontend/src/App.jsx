@@ -9,6 +9,7 @@ import NotFound from './pages/Notfound';
 import MonumentsPage from './pages/Monuments';
 import ContactPage from './pages/Contact';
 import GalleryPage from './pages/Gallery';
+import ThreeSixty from './pages/ThreeSixty';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/monasteries" element={<MonumentsPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/gallery" element={<GalleryPage />} />
+        <Route path="/ThreeSixty" element={<ThreeSixty />} />
       </Routes>
       <Footer />
     </Router>

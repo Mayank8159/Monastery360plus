@@ -32,6 +32,7 @@ const Navbar = () => {
         <li><a className="hover:text-white/70 transition" href="/">Home</a></li>
         <li><a className="hover:text-white/70 transition" href="/monasteries">Monasteries</a></li>
         <li><a className="hover:text-white/70 transition" href="/gallery">Gallery</a></li>
+        <li><a className="hover:text-white/70 transition" href="/ThreeSixty">360</a></li>
         <li><a className="hover:text-white/70 transition" href="/contact">Contact</a></li>
       </ul>
 

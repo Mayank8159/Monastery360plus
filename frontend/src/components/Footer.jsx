@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex items-center space-x-3 mb-6">
             <Landmark size={28} color="#F4E1D2" />
             <div className="text-2xl font-bold">
-               Monument <span className="text-[#F4E1D2]">360</span>
+               Monastery <span className="text-[#F4E1D2]">360</span>
             </div>
        </div>
 
