@@ -82,7 +82,6 @@
 - HuggingFace, TensorFlow, OpenAI GPT-4 Turbo  
 - ScienceDirect, IEEE, Journal of Tourism Futures  
 
-*(Add a QR code linking to demo video/prototype if available)*  
 
 ---
 
@@ -104,6 +103,7 @@ Built with ❤️ by:
 
 ## 🏆 Acknowledgments  
 Special thanks to **Smart India Hackathon 2025** for the opportunity to innovate for cultural preservation and tourism.  
+
 
 
 
