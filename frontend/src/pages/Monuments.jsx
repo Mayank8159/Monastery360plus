@@ -40,70 +40,70 @@ const monumentsData = {
   phodong: {
     name: "Phodong Monastery",
     description:
-      "An important Kagyu monastery, Phodong is famous for its murals and annual Cham dance festival.",
+      "Situated in North Sikkim, Phodong Monastery is an important center of the Kagyu sect and one of the region’s most celebrated religious institutions. Originally built in the early 18th century by Chogyal Gyurmed Namgyal, it was later rebuilt in 1977 but continues to retain its traditional charm and spiritual significance. The monastery is particularly renowned for its vivid murals that depict Buddhist deities, legends, and teachings in striking detail, offering both artistic beauty and cultural depth. Each year, Phodong comes alive during its vibrant Cham dance festival, when monks in elaborate masks and costumes perform sacred dances symbolizing the triumph of good over evil. The serene setting, surrounded by lush forests and mountain views, further enhances the monastery’s spiritual aura, making it not only a site of devotion but also a major attraction for tourists seeking to experience the living traditions of Sikkimese Buddhism.",
     image:
       "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTIFp7_XAGL5jaf8K5eSqn_Ptw9jq0gs7n6FNYFKeH_D57ItPEdkRzG8ni7cx0TxpYvfDS44TPTZcHmJ7UKyEt6_uQM6Dt0XKUilBYSqC7YrhNST3g",
   },
   sangaChoeling: {
     name: "Sanga Choeling Monastery",
     description:
-      "Located near Pemayangtse, Sanga Choeling is one of the oldest monasteries in Sikkim, accessible via a short trek.",
+      "Perched on a ridge above Pelling and reached by a scenic uphill trek through pine forests, Sanga Choeling Monastery is one of the oldest monasteries in Sikkim, founded in the 17th century by Lama Lhatsun Chempo. Dedicated to the Nyingma sect of Tibetan Buddhism, the monastery is steeped in history and spiritual significance, making it a revered destination for both pilgrims and travelers. Its quiet location, away from the bustle of towns, offers a serene retreat where visitors can immerse themselves in meditation and admire the traditional architecture adorned with Buddhist symbols and prayer flags fluttering in the mountain breeze. The short trek to the monastery not only rewards visitors with stunning views of the Himalayan landscape, including Kanchenjunga, but also with an authentic experience of Sikkim’s deep-rooted spiritual heritage.",
     image:
       "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRwjwy6E7hkg-3EkYaYUZ8UMmPk66jGyBx5nY9PljgeKKuL-MRIVIRUfa4UnkfR",
   },
   tashiding: {
     name: "Tashiding Monastery",
     description:
-      "Renowned for the Bhumchu festival, Tashiding is believed to cleanse devotees of all sins.",
+      "Nestled atop a hill between the Rathong and Rangeet rivers, Tashiding Monastery is one of the holiest Buddhist sites in Sikkim, revered for its spiritual purity and centuries-old traditions. Founded in the 17th century by Ngadak Sempa Chempo, a disciple of Guru Padmasambhava, the monastery holds immense religious significance as it is believed that prayers offered here cleanse devotees of all sins. The highlight of Tashiding’s spiritual calendar is the Bhumchu Festival, celebrated annually, during which a sacred vessel of holy water is ceremonially opened and interpreted as an omen for the coming year. The monastery’s chortens, fluttering prayer flags, and panoramic Himalayan views create an atmosphere of profound peace, attracting both pilgrims seeking blessings and travelers drawn by its cultural richness and scenic beauty.",
     image:
       "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQdtHbPEbW8KlGGiSLXcVWszdtaSJHQEnn9NY3MwQsP2ekdtEmw8UiW3pE--tmF9enbWOQhfjucGHP41AdI-gdCf9FnieW0Mse2-QC84MFibhlvcgQ",
   },
   kartok: {
     name: "Kartok Monastery",
     description:
-      "Located in Yuksom, Kartok is small but holds great spiritual importance.",
+      "Located in the picturesque village of Yuksom in West Sikkim, Kartok Monastery is a serene and spiritually significant site named after one of the three esteemed lamas who consecrated the first Chogyal (king) of Sikkim in the 17th century. Though smaller in scale compared to some of Sikkim’s grand monasteries, Kartok holds deep historical and cultural importance as part of the sacred landscape of Yuksom, which is also regarded as the birthplace of Sikkim’s Buddhist kingdom. Surrounded by tranquil lakes, prayer wheels, and fluttering flags, the monastery exudes peace and offers visitors a chance to reflect in its calm, meditative environment. Its proximity to other important heritage sites in Yuksom makes Kartok a meaningful stop for pilgrims and travelers seeking to connect with the origins of Sikkim’s spiritual and political history.",
     image:
       "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQzNu89tEhJ8Y6Jb4HPrjrZE9lOgAGEVOiSI4_vebWg4R22kqbSMsWI3AZZW8u1",
   },
   lachen: {
     name: "Lachen Monastery",
     description:
-      "Built in 1858, this monastery is the spiritual center for the Lachenpas and gateway to Gurudongmar Lake.",
+      "Nestled in the pristine landscapes of Sikkim, Lachen Monastery stands as a beacon of serenity and profound spiritual heritage. Our platform, Monastery360+, brings this sacred site to life through an immersive digital experience. Step into its hallowed halls via our **360°/3D virtual tours**, where every intricate mural and ancient manuscript is meticulously captured. Our **AI-driven audio guides**, powered by localized NLP models, narrate the rich history and cultural significance of the monastery in multiple languages, offering personalized context for every visitor. Beyond just a tour, we are committed to sustainable preservation, using AI to digitally restore delicate manuscripts and murals. This initiative transforms cultural tourism, providing a unique, eco-friendly way to explore and connect with heritage, ensuring that the legacy of places like Lachen Monastery is accessible to all, anytime, anywhere.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShvVDCUvf8jL2JWoNRT9jVonDs3b9Isfcyvt_bcTTrLuTTldzDTJdJLPIyBRYl",
   },
   lachung: {
     name: "Lachung Monastery",
     description:
-      "Located near Yumthang Valley, this monastery is central to the cultural life of Lachung village.",
+      "Nestled in the breathtaking Yumthang Valley, Lachung Monastery is a testament to the rich Buddhist traditions of Sikkim. Our platform, Monastery360+, transports this spiritual sanctuary into the digital realm, offering a truly immersive experience. Through our **360°/3D virtual tours**, visitors can explore the monastery's vibrant murals and sacred artifacts from anywhere in the world. The experience is enhanced by our **AI-driven audio guides**, which use cutting-edge NLP technology to provide historical and cultural context in multiple languages. Our commitment extends to preservation, with AI tools dedicated to the digital restoration of delicate manuscripts and artworks. Monastery360+ transforms how we connect with heritage, ensuring that the legacy of revered sites like Lachung Monastery is not only preserved but also made accessible and sustainable for future generations.",
     image:
       "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcS8s-WnqtDOA-HjH7hTaXGHjOuMfj3jhN6xf98HbJYa5TwA-k4OB5iENUvWLi7KBdPnd_2Fb-vBFd_FWEFdG5YYwVJczHUfXhqecu0ezxKrHVvun4U",
   },
   ralang: {
     name: "Ralang Monastery",
     description:
-      "A major Kagyu monastery near Ravangla, known for its grand Kagyed Chaam festival with vibrant mask dances.",
+      "Rising majestically in the heart of Sikkim, Ralang Monastery is a living testament to the Kagyupa school of Tibetan Buddhism. Our platform, Monastery360+, extends its spiritual grandeur to a global audience through a state-of-the-art digital experience. With our **360°/3D virtual tours**, we meticulously capture the monastery's sacred art, from its detailed mandalas to its towering prayer wheels. Our **AI-driven audio guides** offer a deep and personal connection to the site's history, providing contextual narratives that are both informative and captivating. The project also focuses on the long-term preservation of its cultural treasures, utilizing AI for the digital restoration of ancient manuscripts and murals. Monastery360+ is not merely a virtual tour; it is a sustainable solution for heritage conservation, ensuring that the legacy and spiritual essence of Ralang Monastery endure for generations to come.",
     image:
       "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTcf_4k-d0xyfqSlUqFNBakMdi09_A9bkPp6A6YOk8PbfIsZsW0Ja4BDMH2SggX",
   },
   bon: {
     name: "Bon Monastery (Khamdong)",
     description:
-      "The only Bon monastery in Sikkim, dedicated to the pre-Buddhist Bon tradition of Tibet.",
+      "Bon Monastery (Khamdong) is a significant center for the ancient Bon religion, a faith that existed in Tibet before the rise of Buddhism. Located in the serene landscapes of Sikkim, it serves as one of only two Bon monasteries in India. The monastery's architecture reflects a unique blend of Indo-Tibetan styles, and its interior is adorned with fascinating paintings of Bon deities and other spiritual figures. It functions not only as a place of worship but also as an institution dedicated to preserving the teachings and culture of the Bon tradition. The peaceful environment, combined with the rhythmic chanting of mantras and the beat of drums, provides a deeply spiritual experience for visitors. The monastery also plays a crucial role in the local community, hosting festivals and rituals that celebrate the Bon heritage, making it a vital link to Sikkim's diverse religious tapestry.",
     image:
       "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRm6RYamNC_sMA-5ZBJm0faSj961c4fJdOxM6enYfrdsxFCooT3bZ-Ers0FiRpG",
   },
   doling: {
     name: "Doling Monastery",
     description:
-      "A small but important monastery near Ravangla with historical significance.",
+      "A small but important monastery near Ravangla with historical significance. It offers a peaceful retreat and beautiful views of the surrounding hills. The monastery is known for its serene atmosphere and traditional Buddhist architecture, making it a tranquil spot for meditation and reflection. Visitors can explore its modest yet charming structures, adorned with prayer flags and intricate woodwork. Doling Monastery also serves as a cultural hub for the local community, hosting religious ceremonies and festivals that showcase Sikkim's rich Buddhist heritage. Its location amidst lush greenery and rolling hills provides a picturesque setting, making it a worthwhile visit for those seeking both spiritual solace and natural beauty. The monastery's peaceful ambiance, combined with its cultural significance, makes it a hidden gem in Sikkim's array of spiritual sites.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3iYAOWc2TDro4Sny1CR5QHv-mYgDi1_Mem9wd1GprVt6Vs9h0XiG2VRioSCDp",
   },
   yangyang: {
     name: "Yangyang Monastery",
     description:
-      "A lesser-known monastery in South Sikkim, serving as a peaceful retreat.",
+      "A lesser-known monastery in South Sikkim, serving as a peaceful retreat. It is known for its tranquil environment and traditional Buddhist practices. The monastery is a place where monks engage in meditation, prayer, and the study of Buddhist scriptures, maintaining the spiritual traditions of the region. Visitors to Yangyang Monastery can experience the serene ambiance, surrounded by lush greenery and scenic landscapes that enhance the sense of peace and contemplation. The monastery also plays a role in the local community, hosting religious ceremonies and festivals that reflect Sikkim's rich cultural heritage. Its remote location makes it an ideal spot for those seeking solitude and a deeper connection with nature and spirituality. Yangyang Monastery, though small, offers a meaningful experience for pilgrims and travelers alike, highlighting the enduring presence of Buddhism in Sikkim.",
     image:
       "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHqrZJO4vr-IihN1U10fbzdgcRAr33NaaQp1-GqKvGAPawXbiITZSPFNxX3_AJ",
   },
