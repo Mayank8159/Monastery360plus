@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -14,6 +15,9 @@ const staggerContainer = {
 };
 
 export default function LandingPage() {
+
+  const navigate = useNavigate();
+
   return (
     <main className="relative min-h-screen text-[#F5F0EB] font-serif overflow-hidden">
 
@@ -45,6 +49,7 @@ export default function LandingPage() {
             className="bg-[#F5F0EB] text-[#2E2E2E] px-6 py-3 rounded-full text-sm font-medium hover:opacity-90 active:scale-95 transition"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => navigate('/monasteries')}
           >
             Explore Monasteries
           </motion.button>
