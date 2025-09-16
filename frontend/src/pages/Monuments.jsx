@@ -5,35 +5,35 @@ const monumentsData = {
   rumtek: {
     name: "Rumtek Monastery",
     description:
-      "The largest monastery in Sikkim, Rumtek is the seat of the Karmapa and a major center for the Kagyu sect of Tibetan Buddhism.",
+      "Nestled on a hilltop overlooking Gangtok, Rumtek Monastery is the largest and most significant monastery in Sikkim, serving as the spiritual seat of the Karmapa, the head of the Kagyu sect of Tibetan Buddhism. Renowned for its grand architecture, golden stupa, and intricate murals depicting Buddhist teachings, the monastery is both a center of deep spiritual practice and a cultural landmark that attracts thousands of pilgrims and visitors each year. Beyond its sacred halls, Rumtek also functions as a vibrant hub for Buddhist learning, meditation, and rituals, preserving centuries-old traditions while opening its doors to global seekers who come to experience its serene atmosphere and spiritual legacy.",
     image:
       "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcR9oo3B4ZPozgrH2fxVGqbxHU_UtQ14gNHwJN4ds0jYv3GY_KzMoyotnCUS1OU2UW0jHCX9IPoFr48YUV-XP7sqfn3O8fS__POJXlKd0VQJg-0Wl-0",
   },
   enchey: {
     name: "Enchey Monastery",
     description:
-      "Over 200 years old, Enchey Monastery is associated with Guru Padmasambhava and overlooks Gangtok.",
+      "Perched on a scenic ridge with panoramic views of Gangtok, Enchey Monastery is a 200-year-old sacred site deeply associated with Guru Padmasambhava, the revered Buddhist master credited with spreading Tantric Buddhism across the Himalayas. Built in the early 19th century, this serene monastery is adorned with vibrant murals, fluttering prayer flags, and traditional Bhutanese-style architecture that reflects Sikkim’s rich spiritual heritage. Enchey, meaning “the solitary temple,” continues to be a place of meditation and devotion, hosting colorful festivals like the annual Cham dance, where masked monks perform sacred rituals symbolizing the triumph of good over evil. Its peaceful ambiance, coupled with its cultural significance, makes it a must-visit spiritual haven for pilgrims and travelers alike.",
     image:
       "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcS8u3hcbX8q6zIsLVoVLzJ1tNIwneyLCiBR3l5Lp_TUaqk_j4feeq0061UrPdL4VBw0S9kBaAC6nqW7MHv11DPoFoyHwhpgZkz3zYbxplXq1RRkZ14",
   },
   pemayangtse: {
     name: "Pemayangtse Monastery",
     description:
-      "Built in 1705, Pemayangtse is one of the oldest and most revered monasteries in Sikkim. It offers panoramic views of the Himalayas and houses ancient sculptures and murals.",
+      "Founded in 1705, Pemayangtse Monastery is one of the oldest and most revered monasteries in Sikkim, holding a central place in the state’s spiritual and cultural history. Perched on a hilltop near Pelling, it commands breathtaking panoramic views of the majestic Himalayas, including the towering Kanchenjunga. The monastery is renowned for its exquisite collection of ancient sculptures, thangkas, and murals that narrate Buddhist legends with intricate artistry. As the principal seat of the Nyingma sect, Pemayangtse was originally established to house only “pure monks,” symbolizing its deep religious sanctity. One of its most unique treasures is the seven-tiered wooden model of the heavenly palace, Sangtok Palri, meticulously carved by a single lama. Each year, the monastery comes alive during the vibrant Cham dances, when masked monks perform ritualistic dances that embody the triumph of good over evil. With its blend of spirituality, heritage, and natural beauty, Pemayangtse offers visitors a profound journey into the soul of Sikkim’s Buddhist traditions.",
     image:
       "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQlXpSxFuvyz6_xkYVu1q5qTEZDQ-FpMwYoxPc4gHMAD8HW89_EucTxu3LbiGtCMthgOj-s_AJ777CIWMPCk_Nnb2JOGCakK1k-3ijl_4rZC96Oj-A",
   },
   rabdentse: {
     name: "Rabdentse Ruins",
     description:
-      "Rabdentse was the second capital of Sikkim until 1814. The ruins overlook a serene valley and are surrounded by dense forest, offering a glimpse into Sikkim’s royal past.",
+      "The Rabdentse Ruins, once the second capital of Sikkim until 1814, stand today as a remarkable testament to the kingdom’s royal past. Located near Pelling, this historic site overlooks a tranquil valley with sweeping views of the Kanchenjunga range, making it both culturally significant and scenically captivating. The remnants of chortens, palace walls, and stone pathways whisper stories of Sikkim’s former rulers, who governed from here for over a century. Surrounded by lush forests and accessible through a peaceful nature trail, Rabdentse offers visitors a unique blend of history, spirituality, and natural beauty. Now maintained as an archaeological site, it provides a rare opportunity to step back in time and experience the grandeur and legacy of Sikkim’s early monarchy amidst serene Himalayan surroundings.",
     image:
       "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQls6GC5De-K9vnSyp7i-e3-mKXQZbBQRcmZk8YoQu4B0SHI3EI4B8L9_R5W0ISLcchMHBrc9mr_MQNYEBXQUWOOthxDzndnEpvnN4pNNFGOLTzHCY",
   },
   lingdum: {
     name: "Lingdum (Ranka) Monastery",
     description:
-      "Known for its beautiful architecture and peaceful atmosphere, Lingdum Monastery is a major tourist attraction near Gangtok.",
+      "Set against a backdrop of rolling hills and dense forests, Lingdum Monastery, also known as Ranka Monastery, is one of the most visually stunning and tranquil Buddhist sites near Gangtok. Built in traditional Tibetan style, its grand golden-roofed structure, intricately painted walls, and expansive courtyards create an atmosphere of peace and devotion. The monastery belongs to the Zurmang Kagyu lineage and serves as an important center of learning for young monks, who can often be seen engaged in prayer, debate, and ritual practice. Visitors are drawn not only by the monastery’s architectural beauty but also by the serene environment, prayer halls adorned with vibrant murals, and the rhythmic chants that echo through its sacred halls. A popular destination for both pilgrims and tourists, Lingdum offers a perfect blend of spirituality, cultural richness, and scenic charm, making it a must-visit spot in East Sikkim.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrYMY-mxrg1sfwOWslWpYMWbZx_UQ7Ry4dL6uaB16de7tC7F6p57KTqb9UH5ge",
   },
