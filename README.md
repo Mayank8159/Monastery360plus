@@ -1,70 +1,109 @@
-# Monastery 360
+# 🏯 Monastery360+ – Next-Gen Heritage Platform  
+**Immersive AI-powered platform to digitize, preserve, and promote monasteries of Sikkim**  
 
-Welcome to **Monastery 360**, your comprehensive guide to the breathtaking monasteries and vibrant travel culture of Sikkim. This web application is designed to immerse you in the spiritual and natural beauty of the region, providing a modern, user-friendly experience for exploring its rich heritage.
+> Smart India Hackathon 2025 – Problem Statement ID: **SIH25061**  
+> Theme: **Travel & Tourism**  
+> Team: **7SENSITIVE**
 
-## Features ✨
+---
 
-  * **Interactive Map:** Explore the locations of major monasteries in Sikkim with an interactive map, complete with dynamic pins.
-  * **Detailed Monastery Information:** Click on a monastery pin to view its name, a brief description, and a high-resolution image.
-  * **Modern UI/UX:** A clean and modern design with a serene color palette inspired by the lush greenery of the Himalayas.
-  * **Authentication:** User login functionality powered by Clerk for a personalized experience.
-  * **Contact Page:** A dedicated contact page with a submission form powered by Axios and React Toastify for seamless communication.
+## ✨ Features  
+- 🌐 **Immersive 360°/3D Tours** – AI stitching for seamless monastery exploration  
+- 🕶️ **AR Overlays** – Contextual historical/cultural knowledge in real time  
+- 🗣️ **Multilingual Audio Guides** – Powered by *SamasyaNLP v1.7* & *IIT Modi Script Model*  
+- 📜 **Digital Restoration** – Automated manuscripts & mural restoration with TensorFlow + HuggingFace + CLIP  
+- 🤖 **Personalized Experiences** – GPT-4 Turbo storytelling & curation (2025)  
+- 🧘 **Community Portal** – AI-backed authenticity for monks, locals, researchers  
+- 📅 **Real-Time Event Calendar** – Eco-routing, bookings with *Stripe v12*  
 
------
 
-## Technologies Used 💻
+---
 
-  * **React.js:** The core JavaScript library for building the user interface.
-  * **Tailwind CSS:** A utility-first CSS framework for rapid and responsive styling.
-  * **Lucide React:** A beautiful and consistent icon library for a polished look.
-  * **Clerk:** A powerful authentication solution for managing user sign-in and sign-out.
-  * **Axios:** A promise-based HTTP client for making API requests to the backend.
-  * **React Toastify:** A library for adding sleek and customizable toast notifications.
+## 🛠️ Tech Stack  
 
------
+| Layer | Technologies |
+|-------|--------------|
+| **Frontend** | React v18, Next.js v14, Flutter v3.22 |
+| **Mobile/VR/AR** | Three.js r157, ARCore v1.39, ARKit v6 |
+| **AI/NLP** | TensorFlow v2.14, HuggingFace v4.39, GPT-4 Turbo, SamasyaNLP v1.7, CLIP v1.0 |
+| **Backend** | Node.js v20, Django v4.2, Python v3.11, GraphQL v16 |
+| **Maps** | Mapbox GL JS v3.0, Google Maps API |
+| **Database** | MongoDB v6.0, Firebase, PostgreSQL v15.5 |
+| **Deployment** | Docker v26.1, Kubernetes v1.30, AWS EC2 (Ubuntu 22.04), CloudFront CDN |
+| **Security** | OpenSSL v3.2, OAuth2 |
+| **Payments** | Stripe v12, Razorpay v5 |
 
-## Getting Started 🚀
+---
 
-### Prerequisites
+## 🔄 Process Flow  
+1. 📸 **Data Acquisition** → 3D scans, manuscripts  
+2. 🧠 **AI Enrichment** → OCR, NLP, translation, restoration  
+3. 🕶️ **AR/VR Integration** → Web, mobile, headset experiences  
+4. 🌍 **Community Content** → Monks, locals, researchers  
+5. 👤 **User Experience** → Personalized immersive journeys  
 
-Make sure you have Node.js and npm (or yarn) installed on your machine.
+---
 
-### Installation
+## 📊 Feasibility & Viability  
 
-1.  Clone the repository:
-    ```bash
-    git clone [your-repo-url]
-    ```
-2.  Navigate to the project directory:
-    ```bash
-    cd monastery-360
-    ```
-3.  Install the dependencies:
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
+| Challenge | Solution |
+|-----------|----------|
+| 📶 Low Connectivity | Offline sync + device caching |
+| 🧾 Content Authenticity | AI + human moderation |
+| 🗣️ Language Diversity | Deep Indian NLP + multilingual UI |
+| 🔐 Privacy/Security | RBAC + full encryption |
 
-### Running the Project
+✔️ Modular, scalable architecture  
+✔️ Proven open-source stacks  
+✔️ Offline-first support for remote regions  
 
-1.  Start the development server:
-    ```bash
-    npm start
-    # or
-    yarn start
-    ```
-2.  Open your browser and navigate to `http://localhost:3000` to view the application.
+---
 
------
+## 🌍 Impact & Benefits  
 
-## Contributing 🤝
+**Target Beneficiaries**  
+- 🎒 **Tourists** → Immersive multilingual monastery tours  
+- 👨‍🌾 **Locals** → New income, skill development  
+- 📚 **Researchers** → Access to rare digitized archives  
+- 🏯 **Monasteries** → Sustainable digital preservation  
 
-Contributions are welcome\! If you have any suggestions, bug reports, or feature requests, please feel free to open an issue or submit a pull request.
+**Key Benefits**  
+- 🏛️ **Social** – Heritage conservation, multilingual education  
+- 💰 **Economic** – Boost in tourism, local jobs, revenue growth  
+- 🌱 **Environmental** – Reduced wear on fragile sites, eco-friendly tourism  
 
------
+---
 
-## License 📄
+## 📚 Research & References  
+- UNESCO – Digital Heritage Publications  
+- IIT Jodhpur – Indian Language AI  
+- IIT Roorkee – Modi Script Model  
+- Matterport 3D VR, Theasys VR Editor  
+- HuggingFace, TensorFlow, OpenAI GPT-4 Turbo  
+- ScienceDirect, IEEE, Journal of Tourism Futures  
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+*(Add a QR code linking to demo video/prototype if available)*  
+
+---
+
+## 🚀 Roadmap  
+
+- [ ] Phase 1: Prototype – Scan one monastery, basic VR  
+- [ ] Phase 2: AI Integration – Multilingual guides, restoration  
+- [ ] Phase 3: Expansion – All monasteries + tourism portal  
+
+---
+
+## 👥 Authors  
+
+Built with ❤️ by:  
+- **Mayank Kumar Sharma**  
+- **Shreyan Mitra**  
+
+---
+
+## 🏆 Acknowledgments  
+Special thanks to **Smart India Hackathon 2025** for the opportunity to innovate for cultural preservation and tourism.  
+
+
 
