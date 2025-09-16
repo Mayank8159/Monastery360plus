@@ -75,6 +75,7 @@ const Navbar = () => {
             <li><a href="/" className="text-sm" onClick={closeMobileMenu}>Home</a></li>
             <li><a href="/monasteries" className="text-sm" onClick={closeMobileMenu}>Monasteries</a></li>
             <li><a href="/gallery" className="text-sm" onClick={closeMobileMenu}>Gallery</a></li>
+            <li><a href="/ThreeSixty" className="text-sm" onClick={closeMobileMenu}>360</a></li>
             <li><a href="/contact" className="text-sm" onClick={closeMobileMenu}>Contact</a></li>
           </ul>
           <div className="mt-6">
