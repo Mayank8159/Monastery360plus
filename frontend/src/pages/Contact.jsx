@@ -26,7 +26,7 @@ export default function ContactPage() {
 
     try {
       // Replace with your actual backend endpoint URL
-      const response = await axios.post('https://your-backend-api.com/api/contact', formData, {
+      const response = await axios.post('https://monastery360plus.onrender.com/api/contact', formData, {
         headers: {
           'Content-Type': 'application/json',
         },
