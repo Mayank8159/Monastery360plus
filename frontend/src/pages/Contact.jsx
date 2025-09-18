@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Landmark } from 'lucide-react';
+import { Mail, Phone, MapPin, Landmark, FileText } from 'lucide-react'; // Import FileText icon
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -187,6 +187,23 @@ export default function ContactPage() {
               </address>
             </div>
           </div>
+          
+          {/* ✅ New Section for the PPT Link */}
+          <div className="flex items-start space-x-4">
+            <FileText size={24} className="text-[#3E5C59] mt-1" />
+            <div>
+              <p className="font-semibold text-[#1E3A2E]">Our Presentation</p>
+              <a 
+                href="https://docs.google.com/presentation/d/1ok2i7fR3Hvgx0lP5s69ThCpc_6GGZKQob6_DNhSgoM4/edit?usp=sharing" // 👈 Replace with the public URL to your PPT
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-[#1E3A2E]/80 hover:underline"
+              >
+                View Our Project Details
+              </a>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
