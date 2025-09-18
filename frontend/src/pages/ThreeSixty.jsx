@@ -6,6 +6,7 @@ const images = [
   { id: 1, name: "Monastery 1", url: "/image.jpg" },
   { id: 2, name: "Monastery 2", url: "/image2.jpg" },
   { id: 3, name: "Monastery 3", url: "/image3.jpg" },
+  { id: 4, name: "Monastery 4", url: "/image4.jpg" },
 ];
 
 const ThreeSixty = () => {
