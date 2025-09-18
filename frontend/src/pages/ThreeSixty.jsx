@@ -184,7 +184,7 @@ const ThreeSixty = () => {
       )}
 
       <div className="absolute top-4 left-4 z-10 bg-white/80 backdrop-blur-md px-4 py-2 rounded-lg shadow-md">
-        <h1 className="text-lg font-semibold text-gray-800">Monument360 Viewer</h1>
+        <h1 className="text-lg font-semibold text-gray-800">Monastery360 Viewer</h1>
         <p className="text-sm text-gray-600">
           {isVR ? "Move your phone to explore!" : "Click and drag to explore!"}
         </p>
