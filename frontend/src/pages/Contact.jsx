@@ -174,7 +174,7 @@ export default function ContactPage() {
             <div>
               <p className="font-semibold text-[#1E3A2E]">Call Us</p>
               <a href="tel:+1234567890" className="text-[#1E3A2E]/80 hover:underline">
-                +91 99999 XXXXX
+                +91 8159842418
               </a>
             </div>
           </div>
