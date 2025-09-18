@@ -16,14 +16,14 @@ export default function Footer() {
 
         {/* Description */}
         <p className="text-center max-w-xl text-sm font-normal leading-relaxed">
-          Discover the timeless beauty of Sikkim’s monuments. Monument360 brings history, architecture, and culture to your fingertips—curated with care, crafted for clarity.
+          Discover the timeless beauty of Sikkim’s monasteries. Monastery360 brings history, architecture, and culture to your fingertips—curated with care, crafted for clarity.
         </p>
       </div>
 
       {/* Bottom Bar */}
       <div className="border-t border-[#7C4F2A]">
         <div className="max-w-7xl mx-auto px-6 py-6 text-center text-sm font-normal">
-          <a href="https://monument360.in" className="hover:underline">Monument360</a> ©2025. All rights reserved.
+          <a href="https://monastery360plus.vercel.app" className="hover:underline">Monastery360</a> ©2025. All rights reserved.
         </div>
       </div>
     </footer>
